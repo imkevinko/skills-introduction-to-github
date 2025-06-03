@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+  push:
+      - main
+
 permissions:
   contents: write # Update Readme
   actions: write # Disable/enable workflows
